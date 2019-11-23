@@ -16,7 +16,7 @@ export default class TodoList extends React.Component<any,any> {
                 onTodoItemToggled={onTodoItemToggled}
                 {...todo} />
             ))
-            : '할 일이 없습니다.'
+            : 'No hay nada'
         }
       </div>
     )

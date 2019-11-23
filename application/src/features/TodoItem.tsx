@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import './style.css';
 
 export default class TodoItem extends React.Component<any,any> {
   handleRemoveButtonClick = () => {
@@ -19,7 +20,7 @@ export default class TodoItem extends React.Component<any,any> {
       { 'TodoItem__title--complete': complete }
     );
     return (
-      <div className="TodoItem">
+      <div className="container_item">
         <div
           onClick={this.handleTodoTitleClick}
           className={titleClassName}

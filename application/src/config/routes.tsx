@@ -9,7 +9,7 @@ export const Routes:Object[] = [
     component: AppContainer,
     routes: [
       {
-        path: '/home',
+        path: '/',
         component: TodoApp,
         exact: true,
       },
