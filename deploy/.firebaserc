@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "default": "carmen-dev"
+  },
+  "targets": {
+    "carmen-dev": {
+      "hosting": {
+        "staging": [
+          "carmen-qa"
+        ],
+        "develop": [
+          "carmen-dev"
+        ],
+        "production": [
+          "carmen-prod"
+        ]
+      }
+    }
+  }
+}

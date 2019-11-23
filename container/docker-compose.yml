@@ -1,0 +1,11 @@
+version: '2'
+services:
+  frontend:
+    image: crm_frontend_react/node:10.15.3
+    container_name: frontend_crm_react
+    ports:
+      - 3000:3000
+      - 3200:3200
+    volumes:
+      - ./../application:/app
+    command: '${COMMAND}'
